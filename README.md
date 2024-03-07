@@ -5,6 +5,7 @@
 - clone .env.example and fill out the database details, then run 'php artisan migrate' to create models & populate dummy data
 - run 'php artisan key:generate'
 - run tests using 'php artisan test'
+- run 'php artisan storage:link'
 
 Please note this project is using:
 - PHP 8.1
