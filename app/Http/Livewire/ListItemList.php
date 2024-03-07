@@ -16,11 +16,6 @@ class ListItemList extends Component
 
     public $listeners = ['taskDeleted' => 'render', 'listItemAdded' => 'render'];
 
-//    public function mount()
-//    {
-//        $this->listItems = ListItem::where('list_item_status_id', '!=', ListItemStatus::DELETED)->paginate(10);
-//    }
-
     public function render()
     {
         return view('livewire.list-item-list', [

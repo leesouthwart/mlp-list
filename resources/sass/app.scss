@@ -7,7 +7,19 @@
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 
+body {
+    p{
+        font-size: 1.5rem;
+    }
+
+    .form-control {
+        font-size: 1.25rem;
+    }
+
+}
+
 .btn-submit {
+    font-size: 1.25rem;
     background-color: #337ab7;
     color: #fff;
 
