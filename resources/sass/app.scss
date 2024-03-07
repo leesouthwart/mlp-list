@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.btn-submit {
+    background-color: #337ab7;
+    color: #fff;
+
+    &:hover {
+        background-color: #286090;
+        color: white;
+    }
+}
+
+.row-margin-top {
+    margin-top: 75px;
+}
+
+.finished-task {
+    opacity: 0.5;
+
+    p {
+        text-decoration: line-through;
+    }
+}
